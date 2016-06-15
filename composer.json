@@ -1,0 +1,12 @@
+{
+    "name": "jblandino/phpdominicana",
+    "authors": [
+        {
+            "name": "Joel A. Jaime",
+            "email": "joel.alexander.jaime@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    }
+}
