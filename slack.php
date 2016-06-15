@@ -17,5 +17,17 @@ class Slack{
 	// Metodos disponibles en el Slack
 	protected $slack_methods = ['users.list', 'channels.list', 'chat.postMessage'];
 
+	/**
+	 * Constructor del Script
+	 * @author Joel A. Jaime <joel.alexander.jaime@gmail.com> (https://posicioncreativa.com) */
+	public function __construct(){
+		// Cliente para hacer consultas
+		$this->client 		= new GuzzleHttp\Client();
+		// BASE Url del API de Slack
+		$this->slack_url 	= 'https://slack.com/api/';
+		// Data de Slack (como el token)
+		$this->slack_data 	= ['token' => 'xoxp-39152444724-39167426673-41774226577-e7528d9d52'];
+	}
+
 	
 }
