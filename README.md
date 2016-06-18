@@ -15,7 +15,16 @@
 
 ## Metodos de Github
 
-> #### Soon ####
+```php
+----------------------------------------------------------------------------------------------------------|
+| Metodo                              | Descripción                                                       |
+| ----------------------------------  |-------------------------------------------------------------------|
+| (new Github)->get_contributors()    | -Obtener todas las personas que contribuyen a una repo especifica |
+| (new Github)->get_repos()           | -Mētodo para obtener todas las repos publicas                     |
+| (new Github)->get_all()             | -Obtener todos las repos publicas y la persona que contribuye en  |
+|                                        cada una de ellas                                                |
+----------------------------------------------------------------------------------------------------------
+````
 
 
 
