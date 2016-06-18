@@ -5,7 +5,7 @@ use GuzzleHttp\Client;
 
 
 /**
- * 	Clase con los metodos de Slack
+ * 	Clase con los metodos de Github
  *	Por: Jose Gratereaux - http://www.josegratereaux.com
  */
 class Github{
